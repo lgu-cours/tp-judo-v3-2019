@@ -1,0 +1,13 @@
+   
+
+<div style='height:20px'>
+<c:if test="${ ! empty login}" >
+ Utilisateur : <b>${login}</b>
+</c:if>
+<c:if test="${ empty login}" >
+ Non authentifié
+</c:if>
+<%--
+(${login})
+--%>
+</div>
